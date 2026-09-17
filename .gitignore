@@ -15,3 +15,5 @@ dist/
 *.npy
 runs/
 checkpoints/
+.workbuddy/
+outputs/
