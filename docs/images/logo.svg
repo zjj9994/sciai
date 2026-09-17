@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="sciai logo">
+  <title>sciai — unified AI for Science foundation</title>
+  <defs>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1D4ED8"/>
+      <stop offset="1" stop-color="#0891B2"/>
+    </linearGradient>
+    <radialGradient id="core" cx="0.35" cy="0.30" r="1.0">
+      <stop offset="0" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#0C6584"/>
+    </radialGradient>
+  </defs>
+
+  <!-- spokes: eight data structures converging on the unified core -->
+  <g stroke="url(#ring)" stroke-opacity="0.8" stroke-width="10" stroke-linecap="round">
+    <line x1="256.0" y1="256.0" x2="256.00" y2="66.00"/>
+    <line x1="256.0" y1="256.0" x2="390.35" y2="121.65"/>
+    <line x1="256.0" y1="256.0" x2="446.00" y2="256.00"/>
+    <line x1="256.0" y1="256.0" x2="390.35" y2="390.35"/>
+    <line x1="256.0" y1="256.0" x2="256.00" y2="446.00"/>
+    <line x1="256.0" y1="256.0" x2="121.65" y2="390.35"/>
+    <line x1="256.0" y1="256.0" x2="66.00" y2="256.00"/>
+    <line x1="256.0" y1="256.0" x2="121.65" y2="121.65"/>
+  </g>
+
+  <!-- network ring -->
+  <polygon points="256.00,66.00 390.35,121.65 446.00,256.00 390.35,390.35 256.00,446.00 121.65,390.35 66.00,256.00 121.65,121.65" fill="none" stroke="url(#ring)" stroke-width="14" stroke-linejoin="round"/>
+
+  <!-- science at the core, electrons as nodes -->
+  <circle cx="256.0" cy="256.0" r="62.0" fill="url(#core)"/>
+  <g stroke="#FFFFFF" stroke-width="7" fill="none" opacity="0.96">
+    <ellipse cx="256.0" cy="256.0" rx="44.0" ry="17.0"/>
+    <ellipse cx="256.0" cy="256.0" rx="44.0" ry="17.0" transform="rotate(60 256.0 256.0)"/>
+    <ellipse cx="256.0" cy="256.0" rx="44.0" ry="17.0" transform="rotate(-60 256.0 256.0)"/>
+  </g>
+    <circle cx="292.04" cy="265.75" r="8" fill="#FFFFFF"/>
+    <circle cx="265.58" cy="292.09" r="8" fill="#FFFFFF"/>
+    <circle cx="282.47" cy="229.66" r="8" fill="#FFFFFF"/>
+  <circle cx="256.0" cy="256.0" r="10" fill="#FFFFFF"/>
+
+  <!-- domain nodes -->
+  <g fill="url(#ring)">
+    <circle cx="256.00" cy="66.00" r="17.5"/>
+    <circle cx="390.35" cy="121.65" r="17.5"/>
+    <circle cx="446.00" cy="256.00" r="17.5"/>
+    <circle cx="390.35" cy="390.35" r="17.5"/>
+    <circle cx="256.00" cy="446.00" r="17.5"/>
+    <circle cx="121.65" cy="390.35" r="17.5"/>
+    <circle cx="66.00" cy="256.00" r="17.5"/>
+    <circle cx="121.65" cy="121.65" r="17.5"/>
+  </g>
+</svg>
