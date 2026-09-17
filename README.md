@@ -132,4 +132,4 @@ See [docs/architecture.md](docs/architecture.md), [docs/capability-matrix.md](do
 
 ## License
 
-A license has intentionally not been selected in this initial implementation. Choose and add one before accepting external contributions or publishing releases.
+This project is licensed under the [MIT License](LICENSE).
