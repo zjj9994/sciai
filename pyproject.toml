@@ -8,10 +8,12 @@ version = "0.1.0a1"
 description = "A unified, domain-extensible foundation for AI for Science"
 readme = "README.md"
 requires-python = ">=3.10"
+license = {text = "MIT"}
 authors = [{ name = "sciai contributors" }]
 keywords = ["ai-for-science", "scientific-machine-learning", "simulation", "multiphysics"]
 classifiers = [
   "Development Status :: 2 - Pre-Alpha",
+  "License :: OSI Approved :: MIT License",
   "Intended Audience :: Science/Research",
   "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3.10",
