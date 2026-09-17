@@ -1,5 +1,7 @@
 # sciai
 
+English | [简体中文](README_ZH-CN.md)
+
 `sciai` is an early, framework-neutral foundation for a unified AI for Science developer experience. Its goal is to make scientific data semantics, models, training, task pipelines, and simulator coupling composable across disciplines without forcing every domain into one machine-learning backend.
 
 > **Status: `0.1.0a1` foundation release.** The stable contracts and NumPy reference path are implemented. Production model weights, benchmark datasets, and native commercial-solver integrations are not bundled yet. Capability status is reported explicitly instead of presenting roadmap items as completed features.
